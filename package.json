@@ -1,0 +1,23 @@
+{
+  "name": "portfoliox-demo",
+  "version": "1.0.0",
+  "description": "A simple personal portfolio template built with raw CSS for a clean and minimalist design",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss/styles.scss styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliiranmanesh/PortfolioX-Demo.git"
+  },
+  "keywords": ["personal blog", "blog template", "simple design", "raw CSS", "minimalist", "website template", "HTML", "CSS"],
+  "author": "Ali iranmanesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliiranmanesh/PortfolioX-Demo/issues"
+  },
+  "homepage": "https://github.com/Aliiranmanesh/PortfolioX-Demo#readme",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
