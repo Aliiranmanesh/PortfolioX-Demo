@@ -1,0 +1,20 @@
+// 1. Base Files: These should be loaded first to establish basic styling rules
+@use "base/normalize"; // Normalize default browser styles
+@use "base/typography"; // Base typography settings for consistent text styling
+
+// 2. Utility Files: Variables and Mixins are often used throughout the project
+@use "utils/variables"; // Define variables for colors, fonts, etc.
+@use "utils/mixins"; // Define reusable mixins for common styling patterns
+
+// 3. Component Files: These are self-contained reusable pieces of UI
+@use "components/buttons"; // Button styles (can be reused across the site)
+@use "components/navbar"; // Navbar styles for navigation component
+
+// 4. Layout Files: These define the major layout components of the page
+@use "layout/grid"; // Grid system for layout structure
+@use "layout/header"; // Header layout for consistent page headers
+@use "layout/footer"; // Footer layout for consistent page footers
+@use "layout/main"; // Main content area layout, typically used for body content
+
+// 5. Responsive Files: These should be loaded last to ensure they override other styles
+@use "utils/responsive"; // Responsive utility mixins for media queries
